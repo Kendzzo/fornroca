@@ -30,6 +30,11 @@ const translations: Record<Language, Record<string, string>> = {
     'products.label': 'El nostre ofici',
     'products.caption': 'Part del que elaborem cada dia.',
     
+    // Daily Work Videos
+    'dailyWork.label': 'Documenta',
+    'dailyWork.title': 'El dia a dia',
+    'dailyWork.caption': 'Imatges del nostre treball quotidià.',
+    
     // Process
     'process.label': 'Cada dia',
     'process.text': 'Cada dia, desenes de persones treballen perquè el forn estigui a punt.',
@@ -78,6 +83,11 @@ const translations: Record<Language, Record<string, string>> = {
     'products.label': 'Nuestro oficio',
     'products.caption': 'Parte de lo que elaboramos cada día.',
     
+    // Daily Work Videos
+    'dailyWork.label': 'Documenta',
+    'dailyWork.title': 'El día a día',
+    'dailyWork.caption': 'Imágenes de nuestro trabajo cotidiano.',
+    
     // Process
     'process.label': 'Cada día',
     'process.text': 'Cada día, decenas de personas trabajan para que el horno esté a punto.',
@@ -125,6 +135,11 @@ const translations: Record<Language, Record<string, string>> = {
     // Products
     'products.label': 'Our craft',
     'products.caption': 'Part of what we make every day.',
+    
+    // Daily Work Videos
+    'dailyWork.label': 'Documentary',
+    'dailyWork.title': 'Everyday work',
+    'dailyWork.caption': 'Images from our daily work.',
     
     // Process
     'process.label': 'Every day',
