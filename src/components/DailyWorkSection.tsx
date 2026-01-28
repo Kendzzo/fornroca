@@ -92,12 +92,12 @@ export function DailyWorkSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-16"
+          className="mb-12 md:mb-20"
         >
-          <span className="text-caption text-muted-foreground block mb-4">
+          <span className="font-sans text-xs md:text-sm font-medium tracking-[0.2em] uppercase text-muted-foreground block mb-3">
             {t('dailyWork.label')}
           </span>
-          <h2 className="heading-section text-foreground">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-normal tracking-tight text-foreground">
             {t('dailyWork.title')}
           </h2>
         </motion.div>
@@ -112,7 +112,7 @@ export function DailyWorkSection() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-body text-muted-foreground text-center mt-12"
+          className="font-sans text-sm md:text-base font-light text-muted-foreground text-center mt-10 md:mt-16 tracking-wide"
         >
           {t('dailyWork.caption')}
         </motion.p>
