@@ -12,8 +12,8 @@ const translations: Record<Language, Record<string, string>> = {
   ca: {
     // Navigation
     'nav.home': 'Inici',
-    'nav.bakery': 'La Panaderia',
-    'nav.locations': 'Panaderías',
+    'nav.bakery': 'La Fleca',
+    'nav.locations': 'Fleques',
     'nav.contact': 'Contacte',
     
     // Hero
@@ -55,7 +55,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Locations
     'locations.label': 'On trobar-nos',
-    'locations.title': 'Les nostres panaderías',
+    'locations.title': 'Les nostres ubicacions',
     'locations.text': 'Amb quatre forns repartits per la ciutat de Girona.',
     'locations.city': 'Girona',
     
