@@ -55,12 +55,29 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Locations
     'locations.label': 'On trobar-nos',
-    'locations.text': 'Amb quatre forns repartits per la ciutat.',
+    'locations.title': 'Les nostres panaderías',
+    'locations.text': 'Amb quatre forns repartits per la ciutat de Girona.',
     'locations.city': 'Girona',
+    
+    // Testimonials
+    'testimonials.label': 'Opinions',
+    'testimonials.title': 'El que diuen els nostres clients',
+    
+    // Contact
+    'contact.label': 'Contacte',
+    'contact.title': 'Parlem',
+    'contact.text': 'Per a qualsevol consulta, no dubtis en contactar-nos.',
+    'contact.name': 'Nom',
+    'contact.email': 'Correu electrònic',
+    'contact.message': 'Missatge',
+    'contact.send': 'Enviar',
+    'contact.success': 'Missatge enviat correctament.',
+    'contact.error': 'Error en enviar el missatge.',
     
     // Footer
     'footer.rights': 'Tots els drets reservats.',
     'footer.tagline': 'Tradició, proximitat i ofici des de 1970.',
+    'footer.followUs': 'Segueix-nos',
   },
   es: {
     // Navigation
@@ -108,12 +125,29 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Locations
     'locations.label': 'Dónde encontrarnos',
-    'locations.text': 'Con cuatro panaderías repartidas por la ciudad.',
+    'locations.title': 'Nuestras panaderías',
+    'locations.text': 'Con cuatro panaderías repartidas por la ciudad de Girona.',
     'locations.city': 'Girona',
+    
+    // Testimonials
+    'testimonials.label': 'Opiniones',
+    'testimonials.title': 'Lo que dicen nuestros clientes',
+    
+    // Contact
+    'contact.label': 'Contacto',
+    'contact.title': 'Hablemos',
+    'contact.text': 'Para cualquier consulta, no dudes en contactarnos.',
+    'contact.name': 'Nombre',
+    'contact.email': 'Correo electrónico',
+    'contact.message': 'Mensaje',
+    'contact.send': 'Enviar',
+    'contact.success': 'Mensaje enviado correctamente.',
+    'contact.error': 'Error al enviar el mensaje.',
     
     // Footer
     'footer.rights': 'Todos los derechos reservados.',
     'footer.tagline': 'Tradición, proximidad y oficio desde 1970.',
+    'footer.followUs': 'Síguenos',
   },
   en: {
     // Navigation
@@ -161,12 +195,29 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Locations
     'locations.label': 'Where to find us',
-    'locations.text': 'With four bakeries across the city.',
+    'locations.title': 'Our bakeries',
+    'locations.text': 'With four bakeries across the city of Girona.',
     'locations.city': 'Girona',
+    
+    // Testimonials
+    'testimonials.label': 'Reviews',
+    'testimonials.title': 'What our customers say',
+    
+    // Contact
+    'contact.label': 'Contact',
+    'contact.title': "Let's talk",
+    'contact.text': 'For any enquiry, do not hesitate to contact us.',
+    'contact.name': 'Name',
+    'contact.email': 'Email',
+    'contact.message': 'Message',
+    'contact.send': 'Send',
+    'contact.success': 'Message sent successfully.',
+    'contact.error': 'Error sending message.',
     
     // Footer
     'footer.rights': 'All rights reserved.',
     'footer.tagline': 'Tradition, proximity and craft since 1970.',
+    'footer.followUs': 'Follow us',
   },
 };
 
