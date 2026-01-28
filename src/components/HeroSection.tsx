@@ -24,11 +24,11 @@ export function HeroSection() {
         duration: 1,
         delay: 0.2
       }} className="max-w-3xl">
-          <span className="text-caption text-foreground/70 block mb-px">
+          <span className="text-caption text-foreground/70 block mb-px font-bold">
             {t('hero.tagline')}
           </span>
           
-          <h1 className="heading-display text-foreground mb-6 text-center text-8xl pb-0 pt-0 my-0">
+          <h1 className="heading-display text-foreground mb-6 text-center text-8xl pb-0 pt-0 my-0 font-semibold">
             {t('hero.title')}
           </h1>
           
