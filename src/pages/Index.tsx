@@ -6,7 +6,9 @@ import { DailyWorkSection } from '@/components/DailyWorkSection';
 import { ProcessSection } from '@/components/ProcessSection';
 import { CommitmentSection } from '@/components/CommitmentSection';
 import { AwardSection } from '@/components/AwardSection';
+import { TestimonialsSection } from '@/components/TestimonialsSection';
 import { LocationsSection } from '@/components/LocationsSection';
+import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
 
 const Index = () => {
@@ -21,7 +23,9 @@ const Index = () => {
         <ProcessSection />
         <CommitmentSection />
         <AwardSection />
+        <TestimonialsSection />
         <LocationsSection />
+        <ContactSection />
       </main>
       <Footer />
     </div>
